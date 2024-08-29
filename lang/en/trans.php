@@ -1,0 +1,36 @@
+<?php
+
+   return [
+    'Categories'                        => "Categories",
+    "login"                             => 'Login',
+    "Register"                          => 'Register',
+    "Acount"                            => 'Acount',
+    "Homepage"                          => 'Homepage',
+    "search"                            => "Search",
+    "lang"                              => 'Lang',
+    "top_views"                         => "Top Views",
+    "adventure_shows"                   => "Adventure Shows",
+    "Dashboard"                         => 'Dashboard',
+    "Followed_Shows"                    => "Followed Shows",
+    "Logout"                            => "Logout",
+    "watch-now"                         => "Watch Now",
+    "Sign in With Google"               => "Sign in With Google",
+    "Sign in With Facebook"             => "Sign in With Facebook",
+    "Message"                           => "Message",
+    "Notificatin"                       => "Notificatin",
+    "Admin"                             => "Admin",
+    "Number Of Categories"                => "Number Of Categories",
+    "Number Of Shows"                   => "Number Of Shows",
+    "Number Of Episodes"                => "Number Of Episodes",
+    "Add Category"                      => "Add Category",
+    "All Categories"                    => "All Categories",
+    "Shows"                             => "Shows",
+    "Add Show"                          => "Add Show",
+    "All Shows"                         => "All Shows",
+    "Episodes"                          => "Episodes",
+    "Add Episode"                       => "Add Episode",
+    "All Episodes"                      => "All Episodes",
+    "Role & Permi.."                    => "Role & Permi..",
+
+   ];
+?>

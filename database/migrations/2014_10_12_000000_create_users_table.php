@@ -17,9 +17,11 @@ return new class extends Migration
             $table->string('email')->unique();
             $table->string('password');
             $table->string('photo')->nullable();
-            $table->enum('role',['admin','vendor','user'])->default('user');
+            $table->enum('role',['admin','user'])->default('user');
             $table->enum('status',['active','inactive'])->default('active');
             $table->timestamp('email_verified_at')->nullable();
+            $table->string('social_id')->nullable();
+            $table->string('social_type')->nullable();
             $table->rememberToken();
             $table->timestamps();
             $table->softDeletes();

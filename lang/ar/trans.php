@@ -1,0 +1,36 @@
+<?php
+
+   return [
+    'Categories' => "التصنيفات",
+    "login"      => 'تسجيل الدخول',
+    "Register"   => 'التسجيل',
+    "Acount"     => 'الحساب',
+    "Homepage"   => 'الصفحه الرئيسيه',
+    "search"     => "البحث",
+    "lang"       => 'اللغه',
+    "top_views"  => "الأكثر مشاهده",
+    "adventure_shows" => "عروض المغامرات",
+    "Dashboard"       => 'لوحه التحكم',
+    "Followed_Shows"  => "العروض التي تمت متابعتها",
+    "Logout"          => "تسجيل الخروج",
+    "watch-now"       => "شاهد الان",
+    "Sign in With Google" => "تسجيل الدخول بواسطه جوجل",
+    "Sign in With Facebook" => "تسجيل الدخول بواسطه فيسبوك",
+    "Message"                           => "الرسائل",
+    "Notificatin"                       => "الاشعارات",
+    "Admin"                             => "المسئول",
+    "Number Of Categories"                => "عدد الفئة",
+    "Number Of Shows"                   => "عدد العروض",
+    "Number Of Episodes"                => "عدد الحلقات",
+    "Add Category"                      => "أضف تصنيف",
+    "All Categories"                    => "جميع التصنيفات",
+    "Shows"                             => "العروض",
+    "Add Show"                          => "اضف عرض",
+    "All Shows"                         => "جميع العروض",
+    "Episodes"                          => "الحلقات",
+    "Add Episode"                       => "أضف الحلقة",
+    "All Episodes"                      => "جميع الحلقات",
+    "Role & Permi.."                    => "التصريحات",
+
+   ];
+?>

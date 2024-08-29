@@ -37,7 +37,7 @@ class AuthenticatedSessionController extends Controller
         if($request->user()->role === 'admin'){
             $url = 'admin/dashboard';
         }elseif($request->user()->role === 'user'){
-            $url = 'dashboard' ;
+            $url = '/home' ;
         }
 
         return redirect()->intended($url)->with($notification);
@@ -54,6 +54,6 @@ class AuthenticatedSessionController extends Controller
 
         $request->session()->regenerateToken();
 
-        return redirect('/');
+        return redirect('/home');
     }
 }

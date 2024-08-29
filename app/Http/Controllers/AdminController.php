@@ -2,6 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\category;
+use App\Models\Episodes;
+use App\Models\Show;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -11,7 +14,11 @@ class AdminController extends Controller
 {
     public function AdminDashboard()
     {
-        return view('admin.index');
+        $category = category::select()->count();
+        $show = Show::select()->count();
+        $episode = Episodes::select()->count();
+
+        return view('admin.index',compact('category','show','episode'));
     }
 
     public function AdminProfile()
