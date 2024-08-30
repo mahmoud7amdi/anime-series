@@ -31,12 +31,10 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
     'google' => [
-        $clientId = env('GOOGLE_OAUTH_CLIENT_ID'),
-        $client_secret = env('GOOGLE_OAUTH_CLIENT_Secret'),
-        $redirect = env('GOOGLE_OAUTH_Redirect'),
-        // 'client_id' => '871934541554-ldq4rl7qk9qv8nm5mc7httdp45kstqtn.apps.googleusercontent.com',
-        // 'client_secret' => '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',
-        // 'redirect' => 'http://127.0.0.1:8000/auth/google/callback'
+
+        'client_id' => '871934541554-ldq4rl7qk9qv8nm5mc7httdp45kstqtn.apps.googleusercontent.com',
+        'client_secret' => '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',
+        'redirect' => 'http://127.0.0.1:8000/auth/google/callback'
     ],
 
 ];
